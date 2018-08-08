@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/master.css" />
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+  <div>
+
+    <header class="topo">
+      <nav class="transparent">
+        <div class="nav-wrapper" >
+          <!--<a href="#!" class="brand-logo">Logo</a>-->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="left hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#contato">Contact</a></li>
+
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="menu-center">
+          <h3>Aqui você encontra informações do seu Artista/Banda predileta</h3>
+          <button class="btn-large waves-effect deep-orange darken-3"><a href="index.html#busca_music" id="ancor">FAÇA AQUI SUA BUSCA</a></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="corpo" id="about">
+      <div class="container">
+        <section class="about">
+          <h4>About</h4>
+          <br>
+
+          <p>Lorem ipsum dolor sente-se amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, não resultando magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper um sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, sollicitudin lacus bibendum. Aliquam eleifend sollicitudin diam, ue matis nisl maximus sed. Nulla imperdiet sempre molestie. Morbi massa odio, condimento ipsum ac ac, gravida ultrices erat. Nullam eget dignissim mauris, não tristique erat. Vestibulum ante ipsum primis em orucus oruculares de faucibus e ultrúrios posuere cubilia Curae;Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, não resultando magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper um sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, sollicitudin lacus bibendum. Aliquam eleifend sollicitudin diam, ue matis nisl maximus sed. Nulla imperdiet sempre molestie. Morbi massa odio, condimento ipsum ac ac, gravida ultrices erat. Nullam eget dignissim mauris, não tristique erat. Vestibulum ante ipsum primis em orucus oruculares de faucibus e ultrúrios posuere cubilia Curae;</p>
+        </section>
+        <br>
+
+
+        <form class="form-busca" action="">
+          <h4 id="busca_music">Search</h4>
+          <div class="barra-busca" id="busca">
+
+            <input type="text" name="busca" placeholder="  Search">
+            <button class="btn-large waves-effect deep-orange darken-3">Search</button>
+          </div>
+        </form>
+
+        <section>
+          <div class="row" id="rank">
+
+          </div>
+        </section>
+
+        <section class="contato" id="contato">
+          <h4>Contact</h4>
+
+          <div class="row">
+            <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telephone</label>
+                    <span id="span_phone"></span>
+                  </div>
+                </div>
+              </form>
+            </div>
+
+          </div>
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6" id="email">
+                  <i class="material-icons prefix">contact_mail</i>
+                  <textarea id="contact_mail" class="materialize-textarea"></textarea>
+                  <label for="contact_mail">E-mail</label>
+                  <span id="span_email"></span>
+
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Text</label>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <button class="btn-large waves-effect deep-orange darken-3">Submit</button>
+        </form>
+      </div>
+
+
+    </section>
+
+  </div>
+
+  <footer class="page-footer grey darken-2">
+    <div class="container ">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">E-mail: music_search@email.com.br</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Redes Sociais</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright grey darken-3">
+      <div class="container">
+        © 2018 Copyright Text
+
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+</div>
+
+
+
+
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>

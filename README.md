@@ -1,6 +1,6 @@
-# ProjetoLS
-Projeto Final
-
+# Music Search
+Musica Search
+![img](https://github.com/lucascvasconcelos/Music-Search/blob/master/kkkk.png)
 Nosso projeto utiliza api disponibilizada por https://api.vagalume.com.br/
 
 Equipe:

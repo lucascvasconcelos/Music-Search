@@ -1,3 +1,5 @@
+import './bootstrap';
+
 const btn_busca = document.querySelector(".barra-busca button")
 const input_busca = document.querySelector(".barra-busca input")
 let input_email = document.querySelector("#contact_mail")
@@ -7,10 +9,6 @@ let rankSection = document.querySelector("#rank");
 const span_email = document.querySelector("#span_email")
 const span_phone = document.querySelector("#span_phone")
 const input_phone = document.querySelector("#icon_telephone")
-
-import {sum, minus, pow} from './lib.js'
-
-console.log(sum(10, 5))
 
 input_email.addEventListener("keyup", function(){
     var EmailRegex =  /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/
@@ -37,7 +35,6 @@ function validar_email(email){
 
 }
 
-
 btn_busca.addEventListener('click', function(e){
     e.preventDefault()
     fetch(`https://api.vagalume.com.br/search.art?q=${input_busca.value}&limit=5`)
@@ -52,7 +49,7 @@ btn_busca.addEventListener('click', function(e){
             <div class="card-image">
                 <img src="https://www.vagalume.com.br${json.artist.pic_medium}">
                 <span class="card-title">${json.artist.desc}</span>
-                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+                <a class="btn-floating halfway-fab waves-effect waves-light red modal-trigger" href="#modal1"><i class="material-icons">add</i></a>
             </div>
             <div class="card-content">
                 <p></p>

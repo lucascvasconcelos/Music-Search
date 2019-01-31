@@ -5,7 +5,6 @@ Nosso projeto utiliza api disponibilizada por https://api.vagalume.com.br/
 
 Equipe:
 - Lucas de Carvalho Vasconcelos Nóbrega - 20151370367
-- Matheus Salustiano
 
 
 Na aplicação é possível pesquisar por seu artista/banda de preferência e obter maiores informações como: Músicas mais escutadas e posição no ranking do Vagalume.
